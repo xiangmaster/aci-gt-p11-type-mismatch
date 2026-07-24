@@ -1,0 +1,10 @@
+id: P11-E05
+repository: aci-gt-p11-type-mismatch
+visibility: public
+stage: P1
+rule: P1.1
+kind: experiment
+atomic_variable: "event 匹配但 type 不匹配"
+expected_status: BLOCKED
+setup: AUTO_FILES
+configuration_state: COMPLETE
